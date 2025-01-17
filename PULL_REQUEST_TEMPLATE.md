@@ -1,3 +1,5 @@
+# Pull Request Template
+
 Submit your improvements, fixes, and new features to SuperSchool one at a time, using GitHub Pull Requests. Here are the steps:
 
 ## Fork SuperSchool
