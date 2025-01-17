@@ -1,6 +1,6 @@
 [![License](https://img.shields.io/github/license/tmcls/SuperSchool)](https://github.com/tmcls/SuperSchool)
 [![Made With Love](https://img.shields.io/badge/Made%20With-Love-orange.svg)](https://github.com/tmcls/SuperSchool)
-[![BuyMeCoffee][buymecoffeebadge]][tomclaus]
+[![Deploy SuperSchool to Github Pages](https://github.com/tmcls/SuperSchool/actions/workflows/static.yml/badge.svg)]
 
 # SuperSchool
 
