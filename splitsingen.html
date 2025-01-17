@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiskunde - Splitsingen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Splitsingen</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="splitsingen.html">Splitsingen</a></li>
+            <li><a href="reading-words.html">Lezen Woordjes</a></li>
+            <li><a href="reading-lines.html">Lezen Zinnen</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="splitsingen">
+            
+            <div id="challengeSum">.</div>
+            <div class="lines">
+                <div class="left"></div>
+                <div class="right"></div>
+            </div>
+            <div class="splitsers">
+                <div id="challengeLeft">.</div>
+                <div id="challengeRight">.</div>
+            </div>
+
+            <button id="newSumChallenge">Nieuwe</button>
+
+            <script> 
+                function newSumChallenge(maximum = 10){
+                    let challengeType     = Math.floor(Math.random() * 3) + 1;                        // Left, Right of Top
+
+                    // Get Challenge
+                    let randomSum         = Math.floor(Math.random() * maximum) + 1;
+                    let randomLeft        = Math.floor(Math.random() * randomSum) + 1;   
+                    let randomRight       = randomSum-randomLeft; 
+
+                    console.log(randomLeft , randomRight , randomSum)
+
+                    // Display according to ChallengeType
+                    if(challengeType == 1) {
+                        document.getElementById('challengeSum').textContent      = `${randomSum}`;
+                        document.getElementById('challengeLeft').textContent     = ".";
+                        document.getElementById('challengeRight').textContent    = `${randomRight}`;
+                    } else if(challengeType == 2) { 
+                        document.getElementById('challengeSum').textContent      = `${randomSum}`;
+                        document.getElementById('challengeLeft').textContent     = `${randomLeft}`;
+                        document.getElementById('challengeRight').textContent    = ".";
+                    } else {
+                        document.getElementById('challengeSum').textContent      = ".";
+                        document.getElementById('challengeLeft').textContent     = `${randomLeft}`;
+                        document.getElementById('challengeRight').textContent    = `${randomRight}`;
+                    }
+                }
+
+                document.getElementById('newSumChallenge').addEventListener('click', () => {
+                    newSumChallenge(10);
+                });
+
+                window.addEventListener("load", (event) => {
+                    newSumChallenge(10);
+                });
+            </script>
+
+        </section>
+    </main>
+</body>
+</html>

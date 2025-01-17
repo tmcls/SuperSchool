@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lezen Woordjes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Lezen Woordjes</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="splitsingen.html">Splitsingen</a></li>
+            <li><a href="reading-words.html">Lezen Woordjes</a></li>
+            <li><a href="reading-lines.html">Lezen Zinnen</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="splitsingen">            
+            <h3 id="challengeReading"></h3>
+            <form>
+                <select id="challengeLevel">
+                    <option value="2">Week 1 & 2 - Kern start (i, k, m, s, p)</option>
+                    <option value="3">Week 3 - Kern 1 (aa, r, e)</option>
+                    <option value="4">Week 4 - Kern 1 & 2 (v, n)</option>
+                    <option value="5">Week 5 - Kern 2 (ee, t)</option>
+                    <option value="6">Week 6 - Kern 2 (oo, b)</option>
+                    <option value="7">Week 7 - Kern 3 (d, oe)</option>
+                    <option value="8">Week 8 - Kern 3 (z, ij)</option>
+                    <option value="9">Week 9 - Kern 3 & 4 (h, w)</option>
+                    <option value="10">Week 10 - Kern 4 (o, a)</option>
+                    <option value="11">Week 11 - Kern 4 (u, j)</option>
+                    <option selected value="12">Week 12 - Kern 5 (eu, ie)</option>
+                    <option value="13">Week 13 - Kern 5 (ou, l)</option>
+                    <option value="14">Week 14 - Kern 5 & 6 (g, uu)</option>
+                    <option value="15">Week 15 - Kern 6 (au, ui)</option>
+                    <option value="16">Week 16 - Kern 6 (ei, f)</option>
+                    <option value="17">Week 17 - Kern 6</option>
+                  </select>
+                <button id="newReadingChallenge">NIEUWE</button>
+            </form>
+
+
+            <script src="vvl-library-words.js" defer></script>
+            <script>
+                function newReadingChallenge(week = 11){
+                    // Select the correct words based on week
+                    let challengeWords = library[week];
+
+                    // Add lower levels
+                    //challengeWords = challengeWords.concat(library[week-1])
+                    //challengeWords = challengeWords.concat(library[week-2])
+
+                    console.log(challengeWords)
+
+                    // Select Random word
+                    const randomWord = challengeWords[Math.floor(Math.random() * challengeWords.length)];
+                    divReading.textContent = `${randomWord}`;
+                }
+
+                let divReading      = document.getElementById('challengeReading');
+                let challengeLevel  = document.getElementById('challengeLevel');
+
+                document.getElementById('newReadingChallenge').addEventListener('click', (event) => {
+                    event.preventDefault();
+                    newReadingChallenge(challengeLevel.value);
+                });
+
+                window.addEventListener("load", (event) => {
+                    newReadingChallenge(challengeLevel.value);
+                });
+            </script>
+
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lezen Zinnen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Lezen Zinnen</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="splitsingen.html">Splitsingen</a></li>
+            <li><a href="reading-words.html">Lezen Woordjes</a></li>
+            <li><a href="reading-lines.html">Lezen Zinnen</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="splitsingen">            
+            <h3 id="challengeReading"></h3>
+            <form>
+                <select id="challengeLevel">
+                    <option value="1">Kern 1</option>
+                    <option value="2">Kern 2</option>
+                    <option value="3">Kern 3</option>
+                    <option value="4">Kern 4</option>
+                    <option selected value="5">Kern 5</option>
+                    <option value="6">Kern 6</option>
+                    <option value="7">Kern 7</option>
+                    <option value="8">Kern 8</option>
+                    <option value="9">Kern 9</option>
+                    <option value="10">Kern 10</option>
+                  </select>
+                <button id="newReadingChallenge">NIEUWE</button>
+            </form>
+
+
+            <script src="vvl-library-lines.js" defer></script>
+            <script>
+                function newReadingChallenge(week = 11){
+
+                    // Select the correct words based on week
+                    let challengeWords = library[week-1];
+
+
+                    // Select Random word
+                    const randomWord = challengeWords[Math.floor(Math.random() * challengeWords.length)].toLowerCase();
+
+                    divReading.textContent = `${randomWord}`;
+
+                }
+
+                let divReading      = document.getElementById('challengeReading');
+                let challengeLevel  = document.getElementById('challengeLevel');
+
+                document.getElementById('newReadingChallenge').addEventListener('click', (event) => {
+                    event.preventDefault();
+                    newReadingChallenge(challengeLevel.value);
+                });
+
+                window.addEventListener("load", (event) => {
+                    newReadingChallenge(challengeLevel.value);
+                });
+            </script>
+
+        </section>
+    </main>
+</body>
+</html>
