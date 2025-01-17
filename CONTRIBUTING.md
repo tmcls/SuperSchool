@@ -1,6 +1,3 @@
-[![License](https://img.shields.io/github/license/tmcls/SuperSchool)](https://github.com/tmcls/SuperSchool)
-[![Made With Love](https://img.shields.io/badge/Made%20With-Love-orange.svg)](https://github.com/tmcls/SuperSchool)
-
 # How to contribute
 
 I'm really glad you're reading this, because we need volunteer developers to help this project come to fruition.
@@ -17,11 +14,6 @@ Changes that are cosmetic in nature and do not add anything substantial to the s
 
 ## **Do you intend to add a new feature or change an existing one?**
 
-Please send a [GitHub Pull Request](https://github.com/tmcls/SuperSchool/pull/new/master) with a clear list of what you've done (read more about [Pull Requests](http://help.github.com/pull-requests/)). Please make sure all of your commits are atomic (one feature per commit).
+Please send a [GitHub Pull Request](https://github.com/tmcls/SuperSchool/pull/new/master) with a clear list of what you've done (read more about [Pull Requests](PULL_REQUEST_TEMPLATE.md)). Please make sure all of your commits are atomic (one feature per commit).
 
-Always write a clear log message for your commits. One-line messages are fine for small changes, but bigger changes should look like this:
-
-    $ git commit -m "A brief summary of the commit
-    > 
-    > A paragraph describing what changed and its impact."
 
