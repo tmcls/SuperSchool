@@ -10,6 +10,7 @@
     <header>
         <h1>Lezen Zinnen</h1>
     </header>
+
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -18,6 +19,7 @@
             <li><a href="reading-lines.html">Lezen Zinnen</a></li>
         </ul>
     </nav>
+
     <main>
         <section id="splitsingen">            
             <h3 id="challengeReading"></h3>
@@ -37,20 +39,16 @@
                 <button id="newReadingChallenge">vernieuw</button>
             </form>
 
-
             <script src="js/vll-library-lines.js" defer></script>
             <script>
                 function newReadingChallenge(week = 11){
-
                     // Select the correct words based on week
                     let challengeWords = library[week-1];
-
 
                     // Select Random word
                     const randomWord = challengeWords[Math.floor(Math.random() * challengeWords.length)].toLowerCase();
 
                     divReading.textContent = `${randomWord}`;
-
                 }
 
                 let divReading      = document.getElementById('challengeReading');
@@ -68,6 +66,7 @@
 
         </section>
     </main>
+
     <main class="footer">
         <section>
             Copyright © 2025 
@@ -75,5 +74,6 @@
             | <a target="_blank" href="https://github.com/tmcls/SuperSchool">Github Source</a>
         </section>
     </main>
+
 </body>
 </html>
