@@ -39,4 +39,4 @@ Een lijst met de belangrijkste functionaliteiten van het project:
 
 ## Contributie
 
-We verwelkomen bijdragen van iedereen! Je kunt helpen door nieuwe oefeningen te maken, bestaande te verbeteren of bugs op te lossen. Als je zelf een bijdrage wilt leveren, start dan gerust een [Pull Request](CONTRIBUTE.md), zodat we samen kunnen kijken naar je wijzigingen en deze kunnen integreren.
+We verwelkomen bijdragen van iedereen! Je kunt helpen door nieuwe oefeningen te maken, bestaande te verbeteren of bugs op te lossen. Als je zelf een bijdrage wilt leveren, start dan gerust een [Pull Request](CONTRIBUTING.md), zodat we samen kunnen kijken naar je wijzigingen en deze kunnen integreren.
