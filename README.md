@@ -37,17 +37,4 @@ Een lijst met de belangrijkste functionaliteiten van het project:
 
 ## Contributie
 
-We verwelkomen bijdragen van iedereen! Je kunt helpen door nieuwe oefeningen te maken, bestaande te verbeteren of bugs op te lossen. Volg de onderstaande stappen om bij te dragen:
-
----
-
-### Nieuwe oefeningen maken
-
-1. **Fork deze repository**  
-   Klik op de knop `Fork` rechtsboven in deze pagina om een kopie van deze repository naar je eigen GitHub-account te maken.
-
-2. **Clone de repository**  
-   Clone je geforkte repository naar je lokale machine:
-   ```bash
-   git clone https://github.com/jouwgebruikersnaam/SuperSchool.git
-   cd SuperSchool
+We verwelkomen bijdragen van iedereen! Je kunt helpen door nieuwe oefeningen te maken, bestaande te verbeteren of bugs op te lossen. Als je zelf een bijdrage wilt leveren, start dan gerust een pull-request, zodat we samen kunnen kijken naar je wijzigingen en deze kunnen integreren.
