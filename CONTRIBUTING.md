@@ -35,15 +35,17 @@ If everything looks good according to these musts, commit your changes:
 
 ```bash
   git add .
-
   git commit -m "Added some-feature"
-      Write a meaningful commit message and not only Update or Fix.
-      Use a capital letter to start with your commit message.
-      Don't prefix your commit message with [bla.bla] or platform:.
-      Consider adding tests to ensure that your code works.
 ```
 
-Push your committed changes back to your fork on GitHub:
+Some notes about commit messages:
+
+* Write a meaningful commit message and not only Update or Fix.
+* Use a capital letter to start with your commit message.
+* Don't prefix your commit message with [bla.bla] or platform:.
+* Consider adding tests to ensure that your code works.
+
+####  Push your committed changes back to your fork on GitHub:
 
 ```bash
   git push origin HEAD
