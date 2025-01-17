@@ -148,11 +148,12 @@ section a:hover, section a:active {
 }
 
 
-button, select {
+button, select,
+button:active, select:active {
     box-sizing: border-box;
     display: block;
     margin: 0 auto 20px;
-    padding: 20px;
+    padding: 15px;
     font-size: 26px;
     font-weight: bold;
     text-align: center;
@@ -160,10 +161,14 @@ button, select {
     border: 1px solid #666;
     border-radius: 3px;
     background: #e5e5e5;
+    transition-duration: 0.2s;
 }
 select {
     font-size: 16px;
     padding: 10px;
+}
+button:hover, select:hover {
+    background: #ddd;
 }
 
 
