@@ -104,20 +104,20 @@ library[11] = [
 
 // Week 12 - Kern 5 (eu, ie)
 library[12] = [
-    "deuk", "deun", "deur", "mien", "miep", "mies", "mier", "jas", "jan", "jat", "jak",
+    "deuk", "deun", "deur", "mien", "miep", "mies", "mier", "jas", "jan", "jak",
     "beek", "been", "beer", "beet", "reus", "neus", "keus", "heus", "kijk", "rijk", "dijk",
     "wijk", "ziet", "piet", "niet", "riet", "win", "min", "vin", "pin", "wiek", "tien",
-    "ziek", "biet", "haas", "kan", "mus", "pak", "bier", "men", "zoon", "rust", "sust",
+    "ziek", "biet", "haas", "kan", "mus", "pak", "men", "zoon", "rust", "sust",
     "kust", "kast", "munt", "kerk", "viert", "haast", "kamp", "stoer", "spijt", "kroon",
-    "wrat", "breek", "koorts", "barst", "witst", "kerst", "botst", "jas-zak", "broek-zak",
+    "breek", "koorts", "barst", "kerst", "botst", "jas-zak", "broek-zak",
     "speur-neus", "strop-das", "strijk-stok"
 ];
 
 // Week 13 - Kern 5 (ou, l)
 library[13] = [
     "hek", "her", "hen", "hes", "liep", "lies", "lier", "liet", "waas", "waan", "waar", "waak",
-    "put", "pur", "pul", "pup", "loop", "hoop", "doop", "koop", "zij", "jij", "hij", "wij", 
-    "hout", "bout", "zout", "mout", "nou", "kou", "hou", "jou", "kaas", "bus", "leuk", "boor", 
+    "put", "pur", "pup", "loop", "hoop", "doop", "koop", "zij", "jij", "hij", "wij", 
+    "hout", "bout", "zout", "mout", "kou", "hou", "jou", "kaas", "bus", "leuk", "boor", 
     "hiel", "tel", "wek", "elk", "kalk", "wolk", "melk", "klip", "klom", "klus", "klier", 
     "speurt", "spelt", "smult", "steunt", "spiekt", "strot", "straalt", "sproet", "streept", 
     "strijkt", "eerst", "koerst", "perst", "vorst", "barst", "zit-zak", "ijs-baan", "zout-stel", 
