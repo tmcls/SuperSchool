@@ -1,8 +1,6 @@
-Submit your work
-
 Submit your improvements, fixes, and new features to SuperSchool one at a time, using GitHub Pull Requests. Here are the steps:
 
-From your fork's dev branch, create a new branch to hold your changes:
+**From your fork's dev branch, create a new branch to hold your changes:**
 
   git checkout -b some-feature
 
