@@ -12,15 +12,7 @@ Het doel van dit project is om een praktische en toegankelijke tool te bieden di
 
 ---
 
-## Inhoudsopgave
-
-- [Demo Website](#demo)
-- [Features](#features)
-- [Contributie](#contributie)
-
----
-
-## Demo Website
+## Website
 
 Deze repository (master-branch) is publiekelijk gepubliceerd op: [https://tmcls.github.io/SuperSchool/](https://tmcls.github.io/SuperSchool/)
 
