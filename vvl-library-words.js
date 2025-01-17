@@ -1,4 +1,5 @@
 // https://obspwa.nl/wp-content/uploads/2018/04/vllkim-art-leerlijn-maan-technisch-lezen.pdf
+// https://syboor.eu/woordjes/lijsten/kim_maan
 
 const library = new Array();
 
