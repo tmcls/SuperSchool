@@ -2,19 +2,13 @@
 name: Feature request
 about: Suggest an idea for this project
 title: ''
-labels: ''
-assignees: ''
+labels: 'enhancement'
+assignees: 'tmcls'
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+**Samenvatting**
+Een duidelijke en beknopte beschrijving van wat je wilt dat er veranderd of toegevoegd moet worden.
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
-
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
-
-**Additional context**
-Add any other context or screenshots about the feature request here.
+**Gedetailleerde omschrijving**
+Een gedetailleerde beschrijving van wat er toegevoegd of aangepast moet worden. Zorg ervoor dat de uitleg zo compleet mogelijk is en, indien relevant, voeg screenshots, voorbeelden of links naar vergelijkbare oplossingen toe om je verzoek te verduidelijken.

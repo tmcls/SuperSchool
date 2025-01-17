@@ -23,10 +23,10 @@ Deze repository (master-branch) is publiekelijk gepubliceerd op: [https://tmcls.
 
 Een lijst met de functionaliteiten van SuperSchool:
 
-- ✅ Lezen - Woordjes volgens VLL van Kern 1 tot en met Kern 6. (Opgedeeld per moeilijkheidsgraad per week)
-- ✅ Lezen - Zinnen volgens VLL van Kern 1 tot en met Kern 6.
-- ✅ Wiskunde - Splitsen tot 10
-- 💡 Wiskunde - Splitsen tot 20, 30,..
+* ✅ Lezen - Woordjes volgens VLL van Kern 1 tot en met Kern 6. (Opgedeeld per moeilijkheidsgraad per week)
+* ✅ Lezen - Zinnen volgens VLL van Kern 1 tot en met Kern 6.
+* ✅ Wiskunde - Splitsen tot 10
+* 💡 Wiskunde - Splitsen tot 20, 30,..
 
 ---
 
