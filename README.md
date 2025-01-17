@@ -1,3 +1,6 @@
+[![License](https://img.shields.io/github/license/tmcls/SuperSchool)](https://github.com/tmcls/SuperSchool)
+[![Made With Love](https://img.shields.io/badge/Made%20With-Love-orange.svg)](https://github.com/tmcls/SuperSchool)
+
 # SuperSchool
 
 **Digitale oefeningen voor kinderen van het leerjaar (België).**  
