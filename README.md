@@ -13,7 +13,6 @@ Het doel van dit project is om een praktische en toegankelijke tool te bieden di
 
 - [Demo Website](#demo)
 - [Features](#features)
-- [Bijdragen aan dit project](#Bijdragen aan dit project)
 - [Contributie](#contributie)
 
 ---
