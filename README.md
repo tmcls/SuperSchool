@@ -3,7 +3,7 @@
 
 # SuperSchool
 
-**Digitale oefeningen voor kinderen van het leerjaar (België).**  
+**Digitale oefeningen voor kinderen (6a7 jaar) van het eerste leerjaar in België.**  
 Dit is een  hobbyproject waarin oefeningen zijn ontwikkeld die specifiek gericht zijn op het ondersteunen van leesonderwijs volgens het VLL KIM-systeem (Veilig Leren Lezen - Kern Instructie Model). Het project biedt een reeks gevarieerde oefeningen die leerlingen kunnen helpen bij het verbeteren van hun leesvaardigheid. Zowel eenvoudige woordjes als volledige zinnen zijn in deze oefeningen verwerkt, met aandacht voor de gestructureerde opbouw die kenmerkend is voor het VLL KIM-systeem. Hierdoor sluit het project nauw aan bij het taalonderwijs in de lagere school (België) en biedt het aanvullende mogelijkheden om de leesontwikkeling te bevorderen.
 
 Daarnaast bevat het project ook wiskundige oefeningen, momenteel nog specifiek gericht op het thema splitsingen. Deze oefeningen helpen leerlingen om inzicht te krijgen in het splitsen van getallen, een fundamenteel onderdeel van het wiskundig denken in de basisschool. 
