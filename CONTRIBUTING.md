@@ -16,8 +16,7 @@ Changes that are cosmetic in nature and do not add anything substantial to the s
 
 Please send a [GitHub Pull Request](https://github.com/tmcls/SuperSchool/pull/new/master) with a clear list of what you've done. Please make sure all of your commits are atomic (one feature per commit).
 
-
-## **How To create a SuperSchool Pull Request?**
+## **Creating a SuperSchool Pull Request?**
 
 #### Fork SuperSchool
 
