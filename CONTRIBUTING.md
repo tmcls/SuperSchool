@@ -16,12 +16,13 @@ Changes that are cosmetic in nature and do not add anything substantial to the s
 
 Please send a [GitHub Pull Request](https://github.com/tmcls/SuperSchool/pull/new/master) with a clear list of what you've done. Please make sure all of your commits are atomic (one feature per commit).
 
-## **Creating a SuperSchool Pull Request?**
+### **Creating a Pull Request?**
 
 #### Fork SuperSchool
 
 From your fork's dev branch, create a new branch to hold your changes:
-```
+
+```bash
   git checkout -b some-feature
 ```
 
@@ -31,7 +32,8 @@ Make your changes, create a new platform, develop a new component, or fix issues
 Test your changes and check for style violations.
 
 If everything looks good according to these musts, commit your changes:
-```
+
+```bash
   git add .
 
   git commit -m "Added some-feature"
@@ -40,15 +42,17 @@ If everything looks good according to these musts, commit your changes:
       Don't prefix your commit message with [bla.bla] or platform:.
       Consider adding tests to ensure that your code works.
 ```
+
 Push your committed changes back to your fork on GitHub:
 
-```
+```bash
   git push origin HEAD
 ```
 
 #### Create pull request
 
 Follow these steps to create your pull request.
+
 1. On GitHub, navigate to the main page of the Home Assistant repository.
 2. In the "Branch" menu, choose the branch that contains your commits (from your fork).
 3. To the right of the Branch menu, click New pull request.
