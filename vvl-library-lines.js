@@ -29,11 +29,19 @@ const library = [
 
     // Kern 4
     [
-        "De beer eet honing.",
         "Kees leest een boek.",
-        "Boek is op de tafel.",
         "De reus is heel groot.",
-        "Ik kijk naar de peer."
+        "Ik kijk naar de peer.",
+        "Is het vaak dun of dik.",
+        "Ik zoek naar een boot.",
+        "Ik maak een toer",
+        "Daar is de zee, met een boot!",
+        "Een mus en een aap.",
+        "Weet jij wat het is?",
+        "Ik trek aan de snaar",
+        "Oom keert een kaart om",
+        "Jos bukt naar de mus",
+        "De stoet is om de hoek",
     ],
 
     // Kern 5

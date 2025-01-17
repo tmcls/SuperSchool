@@ -1,6 +1,4 @@
 // https://obspwa.nl/wp-content/uploads/2018/04/vllkim-art-leerlijn-maan-technisch-lezen.pdf
-// https://www.zoleerjekinderenlezenenspellen.nl/assets/pdf/downloads/vll-kim%20woordrijboek%20dec%202015%20dec.pdf
-
 
 const library = new Array();
 
