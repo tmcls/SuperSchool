@@ -68,6 +68,24 @@ h2 {
     margin-bottom: 15px;
 }
 
+section a, section a:visited{
+    color: #0078D7;
+    text-decoration: underline;
+    font-weight: normal;
+}
+section a:hover, section a:active {
+    color: #333;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+
+
+.footer section {
+    text-align: center;
+    margin: 0;
+}
+
 /* lezen */
 
 #challengeReading {
